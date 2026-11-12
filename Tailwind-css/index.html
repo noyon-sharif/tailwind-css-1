@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IT-Shop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- navbar starts-->
+     <nav class="bg-white shadow-md flex items-center justify-between p-4">
+        <div class="flex items-center justify-between w-full">
+            <div class="flex items-center space-x-2">
+                <img src="./Assets/Images/logo.svg" alt="logo" class="h-10 w-10 w-auto">
+                <h1 class="text-2xl font-bold">My IT-Shop</h1>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-blue-500">Home</a></li>
+                <li><a href="#" class="hover:text-blue-500">About</a></li>
+                <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+                <li><a href="#" class="hover:text-blue-500">Services</a></li>
+            </ul>
+        </div>
+     </nav>
+     <!-- navbar ends -->
+     <!-- main content starts-->
+      <section class="bg-blue-700 p-8 text-white">
+            <div class="flex justify-between items-center">
+                <div class="max-w-md space-y-4">
+                    <h2 class="text-3xl font-semibold">Welcome to My IT-Shop</h2>
+                    <p>We have been supporting early stage startups realize their dreams and visions in the U.S. as well as in Asia.</p>
+                    <div>
+                        <button class="bg-white text-blue-800 hover:bg-gray-200 py-2 px-4 rounded cursor-pointer">Get Started</button>
+                    </div>
+                </div>
+                <img src="./Assets/Images/hero-pic.jpg" alt="hero" class="rounded-3xl object-cover h-100 w-150">
+            </div>
+      </section>
+      <!-- main content ends -->
+       <!-- cards start -->
+        <section class="bg-white p-8 text-gray-800">
+            <h3 class="text-2xl font-semibold text-center">Our Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <!-- card 1 -->
+                <div class="max-w-md space-y-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-md text-center space-y-2">
+                        <img src="./Assets/Images/web-design.jpg" alt="web design" class="rounded-lg h-75 w-100">
+                        <h4 class="text-xl font-medium">Web Development</h4>
+                        <p class="text-gray-600 h-12 overflow-hidden">Our web development services help you create a stunning online presence that engages your audience and drives results.</p>
+                        <button class="bg-blue-500 text-white hover:bg-blue-600 py-2 px-4 rounded cursor-pointer">Learn More</button>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="max-w-md space-y-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-md text-center space-y-2">
+                        <img src="./Assets/Images/networking.jpg" alt="networking" class="rounded-lg h-75 w-100">
+                        <h4 class="text-xl font-medium">Couputer Networking</h4>
+                        <p class="text-gray-600 h-12 overflow-hidden">Our computer networking services help you build a robust and scalable online presence that meets your business needs.</p>
+                        <button class="bg-blue-500 text-white hover:bg-blue-600 py-2 px-4 rounded cursor-pointer">Learn More</button>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="max-w-md space-y-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-md text-center space-y-2">
+                        <img src="./Assets/Images/python.jpg" alt="python" class="rounded-lg h-75 w-100">
+                        <h4 class="text-xl font-medium">Python Development</h4>
+                        <p class="text-gray-600 h-12 overflow-hidden">Our python development services help you create a stunning online presence that engages your audience and drives results.</p>
+                        <button class="bg-blue-500 text-white hover:bg-blue-600 py-2 px-4 rounded cursor-pointer">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cards ends -->
+        <!-- footer starts -->
+         <footer class="bg-gray-800 text-white p-4 text-center">
+            <p>&copy; 2026 MY IT-Shop. All rights reserved.</p>
+         </footer>
+</body>
+</html>
